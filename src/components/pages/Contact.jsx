@@ -12,8 +12,10 @@ export const Contact = () => {
             <div className='right'>
               <form>
                 <div className='flex'>
+                  <label></label>
                   <input type='text' placeholder='Name' data-aos='flip-left' />
                   <input type='email' placeholder='Email' data-aos='flip-right' />
+                  <label></label>
                 </div>
                 <input type='email' placeholder='Subject' data-aos='flip-up' />
                 <textarea name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
