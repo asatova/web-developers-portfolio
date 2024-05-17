@@ -18,7 +18,7 @@ export const Contact = () => {
                   <label></label>
                 </div>
                 <input type='email' placeholder='Subject' data-aos='flip-up' />
-                <textarea name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
+                <label><textarea name='' id='' cols='30' rows='10' data-aos='flip-down'></textarea></label>
                 <button data-aos='zoom-in-up'>Submit</button>
               </form>
             </div>
